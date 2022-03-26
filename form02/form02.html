@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 02</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="check.js"></script>
+
+</head>
+
+<body>
+	<form name="f" action="https://fit.agu.edu.vn/demo.php 0" method="post">
+		<table border="0" width="400" align="center">
+			<tr>
+				<th colspan="2">THÔNG TIN CÁ NHÂN</th>
+			</tr>
+			<tr>
+				<td>Họ và tên:</td>
+				<td><input type="text" name="HoTen"></td>
+			</tr>
+			<tr>
+				<td>Địa chỉ:</td>
+				<td><input type="text" name="DiaChi"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="Email"></td>
+			</tr>
+			<tr>
+				<td>Điện thoại:</td>
+				<td><input type="text" name="DienThoai"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button onclick="return check()">Gửi</button>
+					<button type="reset" onclick="return check()">Xóa</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
